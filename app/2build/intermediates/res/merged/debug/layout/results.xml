@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/resultsLayout"
+android:orientation="vertical" android:layout_width="match_parent"
+android:background="#FFFFFF"
+android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="310dp"
+        android:layout_height="265dp"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=""
+            android:id="@+id/plate"
+            android:layout_marginTop="148dp"
+            android:layout_marginLeft="35dp"
+            android:textSize="16dp"
+            android:paddingStart="30dp"
+        />
+
+    </RelativeLayout>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#333333"
+        android:id="@+id/loadingFrame"
+        android:alpha="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Loading"
+            android:id="@+id/resultHolder"
+            android:layout_gravity="center_horizontal"
+            android:textSize="67px"
+            android:textIsSelectable="false"
+            android:layout_marginTop="200dp" />
+
+        <ProgressBar
+            android:id="@+id/progressBar1"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="180dp" />
+
+    </FrameLayout>
+
+</RelativeLayout><!-- From: file:/C:/Users/Cidinha-Nascimento/AndroidStudioProjects/PDIProject/app/src/main/res/layout/results.xml -->
