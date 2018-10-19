@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000"
+    >
+
+    <RelativeLayout
+        android:layout_marginTop="55dp"
+        android:layout_width="fill_parent"
+        android:layout_height="240dp"
+        >
+
+    <ImageView
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#000000"
+        android:id="@+id/imageView"
+        />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/camera_preview"
+        android:layout_width="fill_parent"
+        android:layout_height="140dp"
+        android:layout_alignParentBottom="true"
+        android:background="#C7D9EB"
+        android:layout_weight="1"
+        >
+
+
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="40dp"
+            android:text=""
+            android:id="@+id/vrmText"
+            android:gravity="center"
+            android:layout_marginBottom="70dp"
+            android:layout_alignParentBottom="true"
+            android:textSize="30dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:background="#FFFFFF"
+            />
+    </RelativeLayout>
+
+
+    <TextureView
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:id="@+id/textureView"
+        android:layout_alignParentTop="true"
+        android:alpha="0"
+        />
+
+
+</RelativeLayout>

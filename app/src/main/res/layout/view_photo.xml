@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:paddingTop="0dp">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".4"
+        android:text="Take Photo"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#EFEFEF"
+        android:textSize="48dp"
+        android:textStyle="bold"
+        android:id="@+id/mImageView"
+        android:background="#333333" />
+
+
+    <EditText
+        android:layout_width="264dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:layout_gravity="center_horizontal"/>
+        <!--android:maxLength="7" -->
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Process"
+        android:id="@+id/processButton"
+        android:layout_gravity="center_horizontal" />
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Find This Car"
+        android:id="@+id/vrmButton"
+        android:layout_gravity="center_horizontal" />
+
+
+</LinearLayout>

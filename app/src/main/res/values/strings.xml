@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">License Plate Recognizing</string>
+    <string name="voltar">Voltar</string>
+    <string name="photo">Camera</string>
+    <string name="plate">Placa</string>
+    <string name="photoTxt">Clique em Câmera para reconhecimento</string>
+</resources>
